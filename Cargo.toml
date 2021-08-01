@@ -1,0 +1,14 @@
+[package]
+name = "companion-service"
+description = "Run services along with your executable"
+keywords = ["service", "test", "constructor", "destructor"]
+categories = ["config", "development-tools"]
+repository = "https://github.com/Ereski/companion-service"
+authors = ["Carol Schulze <carol@ereski.org>"]
+license = "BSD-3-Clause"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+ctor = { version = "0.1.20", default-features = false }
+linkme = { version = "0.2.6", default-features = false }
